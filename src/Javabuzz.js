@@ -21,6 +21,7 @@ function Javabuzz() {};
 		if (this.isDivisibleByFifteen(number)) return "JavaBuzz"
 		if (this.isDivisibleByThree(number)) return "Java";
 		if (this.isDivisibleByFive(number)) return "Buzz";
+		return number;
 
 	};
 

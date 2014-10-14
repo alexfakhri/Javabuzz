@@ -52,6 +52,10 @@ describe('Javabuzz', function () {
 			expect(javabuzz.says(15)).toEqual("JavaBuzz")
 		});
 
+		it('Number', function() {
+			expect(javabuzz.says(1)).toEqual(1);
+		});
+
 
 	});
 });
