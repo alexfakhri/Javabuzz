@@ -1,6 +1,5 @@
 function Javabuzz() {};
 
-
 	Javabuzz.prototype.isDivisibleByThree = function(number) {
 		return this._isDivisibleBy(number, 3);
 	};
@@ -22,6 +21,4 @@ function Javabuzz() {};
 		if (this.isDivisibleByThree(number)) return "Java";
 		if (this.isDivisibleByFive(number)) return "Buzz";
 		return number;
-
 	};
-
